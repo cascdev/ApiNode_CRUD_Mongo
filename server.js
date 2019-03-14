@@ -6,7 +6,6 @@ const mongoose = require('mongoose')
 // useFindAndModify: false serve para alguns verbos depreciados como findByIdAndUpdate
 const OPTIONS = { useNewUrlParser: true, useFindAndModify: false}
 
-
 const app = express()
 
 // Configurações do Body Parser

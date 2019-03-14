@@ -1,6 +1,5 @@
 const Customer = require('../models/customer.model')
 
-
 // POST (Cria novo Customer)
 exports.create = (req, res) => {
     //Cria novo Customer
